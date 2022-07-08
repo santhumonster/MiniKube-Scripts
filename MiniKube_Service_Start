@@ -1,0 +1,5 @@
+#MiniKube_Service_Start
+rm -rf /tmp/*
+minikube start --vm-driver=none
+minikube status
+kubectl cluster-info
